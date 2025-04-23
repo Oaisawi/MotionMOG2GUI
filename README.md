@@ -1,10 +1,9 @@
 
-![Bounding Box View](assets/mog1.png)
-![MOG2 Mask View](assets/mog2.png)
 # Real-Time Motion Tracker GUI with MOG2 and Audio Playback
 
 This is a Python desktop application that allows users to upload video files and perform real-time motion detection using OpenCV’s MOG2 (Mixture of Gaussians v2) background subtraction algorithm. The interface provides options to view either bounding boxes or the motion mask, control audio playback using VLC, and adjust detection sensitivity and playback speed.
 
+![Bounding Box View](assets/mog1.png)
 ## Features
 
 - Upload and play video files (supported formats: .mp4, .avi, .mov, .mkv)
@@ -50,3 +49,5 @@ python motion_tracker_gui.py
 
 ## What is MOG2 ?
 MOG2 (Mixture of Gaussians version 2) is a background subtraction algorithm provided by OpenCV. It models each pixel with a mixture of Gaussians and adapts to changes in illumination and background movement. It is ideal for real-time video surveillance and motion tracking.
+
+![MOG2 Mask View](assets/mog2.png)
